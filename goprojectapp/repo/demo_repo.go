@@ -23,6 +23,7 @@ func (d *DemoRepoImpl) GetDB(ctx context.Context) *gorm.DB {
 	return database.GetDB(ctx)
 }
 
+
 func (d *DemoRepoImpl) MigrateTables() error {
 	db := d.GetDB(nil)
 	return db.AutoMigrate(

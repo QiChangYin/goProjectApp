@@ -3,7 +3,7 @@ golang 项目脚手架
 
 ## 使用
 ```bash
-silkworm project_name
+gpprojectapp project_name
 ```
 
 ## 功能
